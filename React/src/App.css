@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #29a3a3;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #0e2e47;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  width: 320px;
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  background-color: #0e2e47;
+  border: 2px solid #29a3a3;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 10px auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #66c2c2;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #1c3b57;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #66c2c2;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.remember-me input {
+  margin-right: 5px;
+}
+
+.forgot-password {
+  color: #66c2c2;
+  text-decoration: none;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #29a3a3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1c7373;
+}
